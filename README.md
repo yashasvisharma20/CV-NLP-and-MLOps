@@ -1,33 +1,51 @@
-# NumPy Basics – Day 1 of Learning Journey
+# Data Science Learning Journey – Day 1 & 2
 
-Welcome to the first notebook of my learning series on **CV, NLP & MLOps**. This repository marks the beginning of my journey with **NumPy**, the fundamental package for numerical computation in Python.
+Welcome to my step-by-step learning journey into the world of **Data Science using Python**. This repository contains my hands-on notebooks and key concepts explored during the early days of this journey.
 
-## What’s Inside – `numpy.ipynb`
+---
 
-This Jupyter notebook covers the foundational concepts of NumPy:
+## Day 1 – NumPy Basics (`numpy.ipynb`)
 
 ### Topics Covered:
 - Introduction to NumPy
-- Difference between Python Lists and NumPy Arrays
 - Creating 1D, 2D, and 3D arrays
-- Array Indexing and Slicing
-- Reshaping and Flattening Arrays
-- Data Types and Conversion
-- Array Operations (Arithmetic, Comparison, Broadcasting)
-- Useful NumPy Functions:
-  - `arange()`, `zeros()`, `ones()`
-  - `reshape()`, `flatten()`
-  - `mean()`, `sum()`, `std()`, `min()`, `max()`
-- Vectorization vs Looping (Speed Comparison)
+- Array Indexing, Slicing, and Reshaping
+- Broadcasting and Element-wise Operations
+- Useful Functions: `arange()`, `linspace()`, `zeros()`, `ones()`
+- Comparison between NumPy arrays vs Python lists
 
-## Why NumPy for Images?
+### Use Case:
+NumPy is foundational for **scientific computing** and **image processing**. Arrays allow fast pixel manipulation, numerical modeling, and data transformations.
 
-NumPy plays a major role in **image processing**:
-- Images can be represented as **multi-dimensional arrays** (2D for grayscale, 3D for RGB).
-- Enables fast and efficient pixel-level manipulation.
-- Forms the foundation for working with libraries like OpenCV, PIL, and TensorFlow/Keras.
+---
 
-> Example: An RGB image of size 256x256 becomes a NumPy array of shape `(256, 256, 3)`
+## Day 2 – Pandas Basics (`pandas.ipynb`)
 
+### Topics Covered:
+- Series and DataFrame structures
+- Data cleaning and transformation
+- Using `map()`, `apply()`, and `lambda` for feature engineering
+- File operations 
+- Mini use-cases on custom logic and column operations
+
+### Use Case:
+Pandas helps with real-world **data analysis and preparation** — transforming raw CSV data into insightful and clean datasets.
+
+---
+
+## Tools Used:
+- Python 3.x
+- Jupyter Notebook / VS Code
+- NumPy
+- Pandas
+
+---
+
+## Learning Roadmap:
+- ✅ Day 1: NumPy Arrays & Operations
+- ✅ Day 2: Pandas Series, DataFrames & Data Cleaning and Grouping, Aggregation & Merging Data
+
+
+---
 
 
